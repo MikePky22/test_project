@@ -8,14 +8,16 @@
   <body>
     <header>
       <nav>
-        <a href="#"
+        <a href="/index.html"
           ><img src="./images/logo.svg" alt="Логотип Beauty Zone"
         /></a>
         <ul>
-          <li><a href="#">Про нас</a></li>
-          <li><a href="#">Чому ми</a></li>
-          <li><a href="#">Наші процедури</a></li>
-          <li><a href="#">Контакти</a></li>
+          <li>
+            <a href="#about-us"> <span>Про нас</span></a>
+          </li>
+          <li><a href="#why-us">Чому ми</a></li>
+          <li><a href="#procedures">Наші процедури</a></li>
+          <li><a href="#contacts">Контакти</a></li>
         </ul>
       </nav>
       <address>
@@ -37,135 +39,142 @@
           </li>
         </ul>
       </address>
-      <main>
-        <section>
-          <h1>Косметологічна кліника Beauty Zone</h1>
-          <button type="button">Замовити дзвінок</button>
-          <p>Запишись та отримай безкоштовну консультацію нашого косметолога</p>
-        </section>
-        <section>
-          <h2>Перевтілюйтесь в Beauty Zone</h2>
-          <p>
-            Наша косметологічна клініка пропонує вам професійні послуги з
-            догляду за шкірою обличчя та тіла.
-          </p>
-          <p>
-            B <span>beauty zone</span> ми гарантуємо найвищі стандарти якості та
-            приємний сервіс. Наші косметологічні процедури та препарати
-            допоможуть вам підтримувати свою красу та молодість. З нами краса
-            назавжди!
-          </p>
-          <img src="./images/faces.jpg" alt="Зображення лиця" />
-        </section>
-        <section>
-          <h2>Чому люди обирають нас</h2>
-          <ul>
-            <li>
-              <article>
-                <img
-                  src="./images/game-icons_materials-science.svg"
-                  alt="Зображення_1"
-                />
-                <p>
-                  Всі наші косметологи мають вищу медичну освіту та стаж роботи
-                  від 5 років
-                </p>
-              </article>
-            </li>
-            <li>
-              <article>
-                <img
-                  src="./images/medicinecosmeticsbottletreatment_109776 1.svg"
-                  alt="Зображення_2"
-                />
-                <p>
-                  Використовуємо тільки професійне обладнання та косметику,
-                  перевірену часом
-                </p>
-              </article>
-            </li>
-            <li>
-              <article>
-                <img src="./images/ph_crown-light.svg" alt="Зображення_3" />
-                <p>
-                  Наша мета - підкреслити переваги та приховати недоліки, а не
-                  переробити
-                </p>
-              </article>
-            </li>
-          </ul>
-        </section>
-        <section>
-          <h2>Наші процедури</h2>
-          <ul>
-            <li>
-              <article>
-                <img src="./images/proc_1.jpg" alt="proceedure_1" />
-              </article>
-            </li>
-            <li>
-              <article>
-                <img src="./images/proc_2.jpg" alt="proceedure_2" />
-              </article>
-            </li>
-            <li>
-              <article>
-                <img src="./images/proc_3.jpg" alt="proceedure_3" />
-              </article>
-            </li>
-          </ul>
-        </section>
-        <section>
-          <h2>Як нас знайти</h2>
-        </section>
-      </main>
-      <footer>
-        <nav>
-          <a href="#"
-            ><img src="./images/logo.svg" alt="Логотип Beauty Zone"
-          /></a>
-          <ul>
-            <li><a href="#">Про нас</a></li>
-            <li><a href="#">Чому ми</a></li>
-            <li><a href="#">Наші процедури</a></li>
-            <li><a href="#">Контакти</a></li>
-          </ul>
-        </nav>
-        <address>
-          <ul>
-            <li><a href="tel:+380960000007">+ 38 (096) 000 00 07</a></li>
-            <li>
-              <a href="mailto:beautyzone@gmail.com">beautyzone@gmail.com</a>
-            </li>
-            <li>
-              <a
-                href="https://maps.app.goo.gl/oP2F84yFg33mLjwj6"
-                target="_blank"
-                >Україна, м. Київ, вул. Тараса Шевченка 5</a
-              >
-            </li>
-            <li>
-              <a href="tel:+380960000007"
-                ><img src="./images/telephone-icon.svg" alt="Phone Icon"
-              /></a>
-            </li>
-            <li>
-              <a href="https://www.facebook.com/" target="_blank"
-                ><img src="./images/facebook-icon.svg" alt="Facebook Icon"
-              /></a>
-            </li>
-            <li>
-              <a href="https://www.instagram.com/" target="_blank"
-                ><img src="./images/instagram-logo.svg" alt="Instagram Icon"
-              /></a>
-            </li>
-          </ul>
-        </address>
-        <ul>
-          <li><a href="#" target="_blank">Політика конфіденційності</a></li>
-          <li><p>© 2022 Дані захищені</p></li>
-        </ul>
-      </footer>
     </header>
+    <main>
+      <section>
+        <h1>Косметологічна кліника <span>Beauty Zone</span></h1>
+        <button type="button">Замовити дзвінок</button>
+        <p>Запишись та отримай безкоштовну консультацію нашого косметолога</p>
+      </section>
+      <section id="about-us">
+        <h2>Перевтілюйтесь в <span>Beauty Zone</span></h2>
+        <p>
+          Наша косметологічна клініка пропонує вам професійні послуги з догляду
+          за шкірою обличчя та тіла.
+        </p>
+        <p>
+          B <span>beauty zone</span> ми гарантуємо найвищі стандарти якості та
+          приємний сервіс. Наші косметологічні процедури та препарати допоможуть
+          вам підтримувати свою красу та молодість. З нами краса назавжди!
+        </p>
+        <img src="./images/faces.jpg" alt="Зображення лиця" />
+      </section>
+      <section id="why-us">
+        <h2>Чому люди <span>обирають нас</span></h2>
+        <ul>
+          <li>
+            <article>
+              <img
+                src="./images/game-icons_materials-science.svg"
+                alt="Зображення_1"
+              />
+              <p>
+                Всі наші косметологи мають вищу медичну освіту та стаж роботи
+                від 5 років
+              </p>
+            </article>
+          </li>
+          <li>
+            <article>
+              <img
+                src="./images/medicinecosmeticsbottletreatment_109776 1.svg"
+                alt="Зображення_2"
+              />
+              <p>
+                Використовуємо тільки професійне обладнання та косметику,
+                перевірену часом
+              </p>
+            </article>
+          </li>
+          <li>
+            <article>
+              <img src="./images/ph_crown-light.svg" alt="Зображення_3" />
+              <p>
+                Наша мета - підкреслити переваги та приховати недоліки, а не
+                переробити
+              </p>
+            </article>
+          </li>
+        </ul>
+      </section>
+      <section id="procedures">
+        <h2>Наші <span>процедури</span></h2>
+        <ul>
+          <li>
+            <article>
+              <img src="./images/proc_1.jpg" alt="proceedure_1" />
+            </article>
+          </li>
+          <li>
+            <article>
+              <img src="./images/proc_2.jpg" alt="proceedure_2" />
+            </article>
+          </li>
+          <li>
+            <article>
+              <img src="./images/proc_3.jpg" alt="proceedure_3" />
+            </article>
+          </li>
+        </ul>
+      </section>
+      <section id="contacts">
+        <h2>Як нас <span>знайти</span></h2>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.9398795080792!2d30.51554861287929!3d50.44222048783692!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cef8b5f6338d%3A0x25c7f06ad686451c!2z0LHRg9C7LiDQotCw0YDQsNGB0LAg0KjQtdCy0YfQtdC90LrQviwgNSwg0JrQuNC10LIsIDAyMDAw!5e0!3m2!1sru!2sua!4v1731675357289!5m2!1sru!2sua"
+          width="605"
+          height="481"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </section>
+    </main>
+    <footer>
+      <nav>
+        <a href="#"
+          ><img src="./images/logo.svg" alt="Логотип Beauty Zone"
+        /></a>
+        <ul>
+          <li>
+            <a href="#about-us"> <span>Про нас</span></a>
+          </li>
+          <li><a href="#why-us">Чому ми</a></li>
+          <li><a href="#procedures">Наші процедури</a></li>
+          <li><a href="#contacts">Контакти</a></li>
+        </ul>
+      </nav>
+      <address>
+        <ul>
+          <li><a href="tel:+380960000007">+ 38 (096) 000 00 07</a></li>
+          <li>
+            <a href="mailto:beautyzone@gmail.com">beautyzone@gmail.com</a>
+          </li>
+          <li>
+            <a href="https://maps.app.goo.gl/oP2F84yFg33mLjwj6" target="_blank"
+              >Україна, м. Київ, вул. Тараса Шевченка 5</a
+            >
+          </li>
+          <li>
+            <a href="tel:+380960000007"
+              ><img src="./images/telephone-icon.svg" alt="Phone Icon"
+            /></a>
+          </li>
+          <li>
+            <a href="https://www.facebook.com/" target="_blank"
+              ><img src="./images/facebook-icon.svg" alt="Facebook Icon"
+            /></a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/" target="_blank"
+              ><img src="./images/instagram-logo.svg" alt="Instagram Icon"
+            /></a>
+          </li>
+        </ul>
+      </address>
+      <ul>
+        <li><a href="#" target="_blank">Політика конфіденційності</a></li>
+        <li><p>&copy; 2022 Дані захищені</p></li>
+      </ul>
+    </footer>
   </body>
 </html>
