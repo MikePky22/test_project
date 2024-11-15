@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900,900i");
+
+:root {
+  --text-primary-color: #011c44;
+  --text-secondary-color: #ffffff;
+  --text-small-color: #4a4a4a;
+  --all-rights-color: #747272;
+  --accent-color: #2b7fff;
+  --input-color: #ffffff;
+  --input-border: #747272;
+}
+
+/* Base */
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--text-primary-color);
+}
+
+ul {
+  list-style-type: none;
+}
+
+::placeholder {
+  font-family: "Roboto", sans-serif;
+  color: var(--text-secondary-color);
+  font-weight: 400;
+  font-size: 13px;
+  opacity: 1;
+}
+
+/* Buttons */
+.button {
+  height: 53px;
+  width: 219px;
+  font-size: 18px;
+  line-height: 21.09px;
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+  background-color: var(--accent-color);
+  color: var(--text-secondary-color);
+  border: 2px solid var(--accent-color);
+  border-radius: 32px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: transparent;
+  color: var(--text-primary-color);
+}
+
+.wide-button {
+  height: 53px;
+  width: 281px;
+  font-size: 18px;
+  line-height: 21.09px;
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+  background-color: var(--accent-color);
+  color: var(--text-secondary-color);
+  border: 2px solid var(--accent-color);
+  border-radius: 32px;
+  cursor: pointer;
+}
+
+.wide-button:hover {
+  background-color: transparent;
+  color: var(--text-primary-color);
+}
+
+/* Inputs */
+.input {
+  color: var(--text-secondary-color);
+  background-color: transparent;
+  width: 310px;
+  height: 52px;
+  top: 52px;
+  border-radius: 32px;
+  border: 2px solid var(var(--input-border));
+  opacity: 0px;
+}
+
+.input:focus {
+  background-color: var(--input-border);
+}
+
+/* Hero section */
+.hero-title {
+  color: var(--accent-color);
+  font-size: 140px;
+}
+
+/* Regular section */
+.section-title {
+  color: var(--text-primary-color);
+}
+
+.section-title .accent {
+  color: var(--accent-color);
+}
+
+.appointment-title {
+  color: var(--text-secondary-color);
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 25.78px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.appointment-title .accent {
+  color: var(--accent-color);
+}
+
+.all-rights {
+  color: var(--all-rights-color);
+}
+
+.regular-text {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.big-text {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 38px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.big-text-accent {
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 38px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.small-text {
+  color: var(--text-small-color);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+/* Links */
+.header-link {
+  color: var(--text-primary-color);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.09px;
+}
+
+.header-link:hover {
+  color: var(--accent-color);
+  font-weight: 700;
+}
+
+.footer-link {
+  color: var(--text-secondary-color);
+}
