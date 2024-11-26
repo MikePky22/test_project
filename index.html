@@ -19,40 +19,42 @@
   <body>
     <header>
       <div class="container">
-        <nav>
-          <a href="/index.html"
-            ><img src="./images/logo.svg" alt="Логотип Beauty Zone"
-          /></a>
-          <ul>
-            <li>
-              <a href="#about-us" class="header-link">Про нас</a>
-            </li>
-            <li><a href="#why-us" class="header-link">Чому ми</a></li>
-            <li>
-              <a href="#procedures" class="header-link">Наші процедури</a>
-            </li>
-            <li><a href="#contacts" class="header-link">Контакти</a></li>
-          </ul>
-        </nav>
-        <address>
-          <ul>
-            <li>
-              <a href="tel:+380960000007"
-                ><img src="./images/telephone-icon.svg" alt="Phone Icon"
-              /></a>
-            </li>
-            <li>
-              <a href="https://www.facebook.com/" target="_blank"
-                ><img src="./images/facebook-icon.svg" alt="Facebook Icon"
-              /></a>
-            </li>
-            <li>
-              <a href="https://www.instagram.com/" target="_blank"
-                ><img src="./images/instagram-logo.svg" alt="Instagram Icon"
-              /></a>
-            </li>
-          </ul>
-        </address>
+        <div class="header-container">
+          <nav class="header-nav">
+            <a href="/index.html"
+              ><img src="./images/logo.svg" alt="Логотип Beauty Zone"
+            /></a>
+            <ul class="header-menu">
+              <li>
+                <a href="#about-us" class="header-link">Про нас</a>
+              </li>
+              <li><a href="#why-us" class="header-link">Чому ми</a></li>
+              <li>
+                <a href="#procedures" class="header-link">Наші процедури</a>
+              </li>
+              <li><a href="#contacts" class="header-link">Контакти</a></li>
+            </ul>
+          </nav>
+          <address>
+            <ul style="display: flex">
+              <li>
+                <a href="tel:+380960000007"
+                  ><img src="./images/telephone-icon.svg" alt="Phone Icon"
+                /></a>
+              </li>
+              <li>
+                <a href="https://www.facebook.com/" target="_blank"
+                  ><img src="./images/facebook-icon.svg" alt="Facebook Icon"
+                /></a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/" target="_blank"
+                  ><img src="./images/instagram-logo.svg" alt="Instagram Icon"
+                /></a>
+              </li>
+            </ul>
+          </address>
+        </div>
       </div>
     </header>
     <main>
@@ -68,33 +70,41 @@
         </section>
       </div>
       <div class="container">
-        <section class="section-transform" id="about-us">
-          <h2 class="section-title section-transform-title">
-            Перевтілюйтесь <br />
-            в <span class="accent">Beauty Zone</span>
-          </h2>
-          <p class="big-text">
-            Наша косметологічна клініка пропонує вам професійні послуги <br />
-            з догляду за шкірою обличчя та тіла.
-          </p>
-          <p class="big-text">
-            B
-            <span class="big-text-accent">Beauty Zone</span>
-            ми гарантуємо найвищі стандарти якості <br />
-            та приємний сервіс. Наші косметологічні процедури та препарати
-            <br />
-            допоможуть вам підтримувати свою красу та молодість. <br />
-            З нами краса назавжди!
-          </p>
-          <!-- <img
-          src="./images/faces.jpg"
-          alt="Зображення лиця"
-        /> -->
+        <section id="about-us">
+          <div class="flex-container">
+            <div>
+              <h2 class="section-title section-transform-title">
+                Перевтілюйтесь <br />
+                в <span class="accent">Beauty Zone</span>
+              </h2>
+              <p class="big-text">
+                Наша косметологічна клініка пропонує вам професійні послуги
+                <br />
+                з догляду за шкірою обличчя та тіла.
+              </p>
+              <p class="big-text">
+                B
+                <span class="big-text-accent">Beauty Zone</span>
+                ми гарантуємо найвищі стандарти якості <br />
+                та приємний сервіс. Наші косметологічні процедури та препарати
+                <br />
+                допоможуть вам підтримувати свою красу та молодість. <br />
+                З нами краса назавжди!
+              </p>
+            </div>
+            <div>
+              <img
+                src="./images/faces.jpg"
+                alt="Зображення лиця"
+                style="margin-bottom: 176px"
+              />
+            </div>
+          </div>
         </section>
       </div>
       <div class="container">
-        <section class="section-why-us" id="why-us">
-          <h2 class="section-title section-why-us-title">
+        <section id="why-us">
+          <h2 class="section-title">
             Чому люди<br />
             <span class="accent">обирають нас</span>
           </h2>
@@ -143,23 +153,25 @@
           <h2 class="section-title">
             Наші <span class="accent">процедури</span>
           </h2>
-          <!-- <ul>
-          <li>
-            <article>
-              <img src="./images/proc_1.jpg" alt="proceedure_1" />
-            </article>
-          </li>
-          <li>
-            <article>
-              <img src="./images/proc_2.jpg" alt="proceedure_2" />
-            </article>
-          </li>
-          <li>
-            <article>
-              <img src="./images/proc_3.jpg" alt="proceedure_3" />
-            </article>
-          </li>
-        </ul> -->
+          <div>
+            <ul class="procedure-section-card">
+              <li>
+                <article>
+                  <img src="./images/proc_1.jpg" alt="proceedure_1" />
+                </article>
+              </li>
+              <li>
+                <article>
+                  <img src="./images/proc_2.jpg" alt="proceedure_2" />
+                </article>
+              </li>
+              <li>
+                <article>
+                  <img src="./images/proc_3.jpg" alt="proceedure_3" />
+                </article>
+              </li>
+            </ul>
+          </div>
         </section>
       </div>
       <div class="container">
@@ -167,50 +179,56 @@
           <h2 class="section-title">
             Як нас <span class="accent">знайти</span>
           </h2>
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.9398795080792!2d30.51554861287929!3d50.44222048783692!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cef8b5f6338d%3A0x25c7f06ad686451c!2z0LHRg9C7LiDQotCw0YDQsNGB0LAg0KjQtdCy0YfQtdC90LrQviwgNSwg0JrQuNC10LIsIDAyMDAw!5e0!3m2!1sru!2sua!4v1731675357289!5m2!1sru!2sua"
-            width="605"
-            height="481"
-            allowfullscreen=""
-            loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
-          ></iframe>
-          <p class="appointment-title">
-            Запишіться <span class="accent">безкоштовно</span> та отримайте
-            подарунок
-          </p>
-          <form>
-            <input
-              class="input"
-              type="text"
-              name="name"
-              id="name"
-              placeholder="Ваше ім'я та прізвище"
-            />
-            <input
-              class="input"
-              type="text"
-              name="tel"
-              id="tel"
-              placeholder="Ваш номер телефону"
-            />
-            <input
-              class="input"
-              type="text"
-              name="email"
-              id="email"
-              placeholder="Ваша електронна пошта"
-            />
-          </form>
-          <button type="button" class="wide-button">
-            Записатись безкоштовно
-          </button>
-          <p class="small-text">
-            Натискаючи на кнопку я погоджуюсь
-            <span class="small-text-underline"
-              >з політикою конфіденційності</span
-            >
-          </p>
+          <div class="contacts-section-container">
+            <div>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.9398795080792!2d30.51554861287929!3d50.44222048783692!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cef8b5f6338d%3A0x25c7f06ad686451c!2z0LHRg9C7LiDQotCw0YDQsNGB0LAg0KjQtdCy0YfQtdC90LrQviwgNSwg0JrQuNC10LIsIDAyMDAw!5e0!3m2!1sru!2sua!4v1731675357289!5m2!1sru!2sua"
+                width="605"
+                height="481"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+            <div class="form">
+              <p class="appointment-title">
+                Запишіться <span class="accent">безкоштовно</span> <br />
+                та отримайте подарунок
+              </p>
+              <form>
+                <input
+                  class="input"
+                  type="text"
+                  name="name"
+                  id="name"
+                  placeholder="Ваше ім'я та прізвище"
+                />
+                <input
+                  class="input"
+                  type="text"
+                  name="tel"
+                  id="tel"
+                  placeholder="Ваш номер телефону"
+                />
+                <input
+                  class="input"
+                  type="text"
+                  name="email"
+                  id="email"
+                  placeholder="Ваша електронна пошта"
+                />
+              </form>
+              <button type="button" class="wide-button">
+                Записатись безкоштовно
+              </button>
+              <p class="small-text">
+                Натискаючи на кнопку я погоджуюсь
+                <span class="small-text-underline"
+                  >з політикою конфіденційності</span
+                >
+              </p>
+            </div>
+          </div>
         </section>
       </div>
     </main>
